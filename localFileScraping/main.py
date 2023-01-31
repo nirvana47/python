@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-with open('/workspaces/python/webscraping/home.html', 'r') as html_file:
+with open('/workspaces/python/localFileScraping/home.html', 'r') as html_file:
     content = html_file.read()
     soup = BeautifulSoup(content, 'lxml')
     # course_html_tags = soup.find_all('h5')
